@@ -1,52 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Merriweather:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Merriweather:ital,wght@0,700;0,900;1,400&display=swap');
 
 header {
     text-align: center;
-}
-
-header {
     margin-top: 80px;
 }
 
 .banner {
     position: relative;
     text-align: center;
+    border-radius: 0%;
+    /* box-shadow: 100%; */
 }
 
 .banner-text {
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /* You can adjust the text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Optional text shadow for better visibility */
-    z-index: 1;
-    /* Ensure text is positioned above the image */
+    z-index: 10;
 }
 
 .banner-text h1 {
-    padding: 0px;
+    /* padding-top: 0px; */
     color: #FFF;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    /* 131.944% */
 }
 
 .banner-text h4 {
-    margin-top: 0px;
+    /* padding-top: 100px; */
     color: #FFF;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+}
+
+.banner-text h4,
+.banner-text h1 {
+    margin: 30px;
 }
 
 .offer {
@@ -54,23 +50,26 @@ header {
 }
 
 .offer-title {
+    padding-top: 100px;
+    margin: auto;
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+
+.offer img {
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .holiday p {
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 
 .holiday span {
@@ -78,19 +77,19 @@ header {
     text-align: center;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .promotion {
-    /* text-align: center; */
+    background-repeat: no-repeat;
     background-image: url(../image/Vectorrr.png);
     width: 1320px;
     height: 600px;
     margin-left: 50px;
     margin-top: 20px;
-    justify-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .promotion-con {
@@ -104,26 +103,27 @@ header {
 }
 
 .promotion-paragraph {
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    color: white;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
 }
 
 .promotion-con button {
+    margin-top: 20px;
+    margin-left: 70px;
     background-color: black;
     color: #f0ebeb;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+    border: none;
 }
 
 .promotion-con img {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-right: 100px;
 
 }
@@ -135,11 +135,15 @@ header {
 
 .address {
     text-align: center;
-    background-color: rgb(235, 147, 147);
+    background-color: red;
     width: 1320px;
     height: 482px;
     margin-left: 50px;
     margin-top: 100px;
+}
+
+.address {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
 .address-text {
@@ -147,11 +151,22 @@ header {
     padding-bottom: 200px;
     text-align: center;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
 }
 
+.address-text p {
+    /* margin: 0; */
+    font-size: 32px;
+}
+
+.address-text span {
+    font-weight: bold;
+    color: #F00;
+    /* Make the span text bold */
+}
+
 .address-text button {
+    /* padding-top: 50px; */
     width: 167px;
     height: 56px;
     background-color: red;
@@ -160,15 +175,12 @@ header {
     border-radius: 10px;
 }
 
-.address-text span {
-    color: #F00;
-}
-
 .upcoming-offer {
     display: flex;
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
+    line-height: 20px;
 }
 
 .upcoming-offer-1 {
@@ -178,6 +190,7 @@ header {
 
 .upcoming-offer-1 span {
     font-size: 24px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #F00;
 }
@@ -186,11 +199,13 @@ header {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
+    font-family: 'Merriweather', serif;
 }
 
 .upcoming-offer-1 p {
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
 }
 
 .upcoming-offer-img {
@@ -202,6 +217,7 @@ header {
 
 .upcoming-offer-2 {
     margin-top: 150px;
+    font-family: 'Inter', sans-serif;
 }
 
 .upcoming-offer-2 span {
@@ -219,33 +235,153 @@ header {
     margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
+    line-height: 0cap;
 }
 
 .dollar-sit-text h5 {
     font-size: 24px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
 
 .dollar-sit-text h2 span {
     color: #F00;
+    width: 1068px;
 }
 
 .dollar-sit-text h2 {
     font-size: 72px;
     font-weight: 900;
+    font-family: 'Inter', sans-serif;
 }
 
 .dollar-sit-text p {
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     line-height: 32px;
+
 }
 
-.portfolio{
+.gift {
+    line-height: 0%;
+    padding-top: 100px;
+    padding-left: 55px;
+}
+
+.gift h3 {
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.gift h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.gift p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    /* 160% */
+}
+
+.portfolio {
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     gap: 24px;
-    height: 600px;
-    flex-wrap: wrap;
+    width: 424px;
+    height: 450px;
+    /* flex-wrap: wrap; */
     align-content: space-between;
 }
 
+.portfolio-1 {
+    padding-top: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    gap: 24px;
+    width: 424px;
+    height: 450px;
+    /* flex-wrap: wrap; */
+    align-content: space-between;
+}
+
+.newsletter {
+    background: linear-gradient(180deg, rgba(238, 8, 8, 0.1) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    border-radius: 16px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 100px;
+    height: 616px;
+}
+
+.newsletter-image img {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.newsletter-image h1 {
+    text-align: center;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.newsletter-image p {
+    color: rgba(7, 2, 17, 0.60);
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 212px;
+    margin-right: 212px;
+}
+
+/* .contact {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+} */
+input {
+    width: 548px;
+    height: 50px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    color: whitesmoke;
+}
+
+input[type="email"] {
+    padding-left: 20px;
+}
+
+.link {
+    width: 210px;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    background: #F00;
+    border: none;
+}
+
+.footer {
+    background-color: #070211;
+    /* width: 1600px; */
+    height: 609px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
