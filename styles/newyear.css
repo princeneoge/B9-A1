@@ -132,7 +132,7 @@ header {
 }
 
 .promotion-text {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 100px;
 }
 
@@ -165,7 +165,6 @@ header {
 .address-text span {
     font-weight: bold;
     color: #F00;
-    /* Make the span text bold */
 }
 
 .address-text button {
@@ -305,7 +304,6 @@ header {
     gap: 24px;
     width: 424px;
     height: 450px;
-    /* flex-wrap: wrap; */
     align-content: space-between;
 }
 
@@ -317,7 +315,6 @@ header {
     gap: 24px;
     width: 424px;
     height: 450px;
-    /* flex-wrap: wrap; */
     align-content: space-between;
 }
 
