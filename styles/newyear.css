@@ -232,39 +232,6 @@ header {
     font-size: 20px;
 }
 
-/* .dollar-sit {
-        text-align: center;
-        margin-top: 100px;
-        padding-left: 150px;
-        padding-right: 150px;
-        line-height: 0cap;
-    }
-
-    .dollar-sit-text h5 {
-        font-size: 24px;
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-    }
-
-    .dollar-sit-text h2 span {
-        color: #F00;
-        width: 1068px;
-    }
-
-    .dollar-sit-text h2 {
-        font-size: 72px;
-        font-weight: 900;
-        font-family: 'Inter', sans-serif;
-    }
-
-    .dollar-sit-text p {
-        font-size: 20px;
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        line-height: 32px;
-
-    } */
-
 .gift {
     line-height: 0%;
     padding-top: 140px;
@@ -353,8 +320,8 @@ header {
 }
 
 input {
-    width: 548px;
-    height: 50px;
+    width: 300px;
+    height: 40px;
     border-radius: 50px 0px 0px 50px;
     border: none;
     color: whitesmoke;
@@ -365,8 +332,8 @@ input[type="email"] {
 }
 
 .link {
-    width: 210px;
-    height: 50px;
+    width: 150px;
+    height: 45px;
     border-radius: 0px 50px 50px 0px;
     color: #FFF;
     background: #F00;
