@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Merriweather:ital,wght@0,700;0,900;1,400&display=swap');
 
+body {
+    max-width: 1250;
+    height: 7335px;
+}
+
 header {
     text-align: center;
     margin-top: 80px;
@@ -9,11 +14,9 @@ header {
     position: relative;
     text-align: center;
     border-radius: 0%;
-    /* box-shadow: 100%; */
 }
 
 .banner-text {
-    /* padding-bottom: 70px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,7 +26,6 @@ header {
 }
 
 .banner-text h1 {
-    /* padding-top: 0px; */
     color: #FFF;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -32,7 +34,6 @@ header {
 }
 
 .banner-text h4 {
-    /* padding-top: 100px; */
     color: #FFF;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -62,6 +63,8 @@ header {
 .offer img {
     padding-top: 50px;
     padding-bottom: 100px;
+    width: 700px;
+    height: 450px;
 }
 
 .holiday p {
@@ -83,10 +86,11 @@ header {
 .promotion {
     background-repeat: no-repeat;
     background-image: url(../image/Vectorrr.png);
-    width: 1320px;
+    /* width: 1280px; */
     height: 600px;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 80px;
     overflow: hidden;
     box-shadow: black;
     border-radius: 15px;
@@ -100,7 +104,6 @@ header {
     margin: auto;
     color: #FFF;
     font-size: 64px;
-    /* line-height: 88px; */
     letter-spacing: 7.04px;
     font-weight: 900;
 }
@@ -132,21 +135,18 @@ header {
 }
 
 .promotion-text {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 100px;
 }
 
-.address {
-    text-align: center;
-    background-color: red;
-    width: 1320px;
-    height: 482px;
-    margin-left: 50px;
-    margin-top: 100px;
-}
 
 .address {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 482px;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 100px;
+    border-radius: 15px;
 }
 
 .address-text {
@@ -158,7 +158,6 @@ header {
 }
 
 .address-text p {
-    /* margin: 0; */
     font-size: 32px;
 }
 
@@ -169,6 +168,7 @@ header {
 
 .address-text button {
     /* padding-top: 50px; */
+    font-weight: bold;
     width: 167px;
     height: 56px;
     background-color: red;
@@ -180,8 +180,8 @@ header {
 .upcoming-offer {
     display: flex;
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 140px;
+    margin-right: 150px;
     line-height: 20px;
 }
 
@@ -199,19 +199,19 @@ header {
 
 #offer-title-1 {
     color: #070211;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
     font-family: 'Merriweather', serif;
 }
 
 .upcoming-offer-1 p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
 
 .upcoming-offer-img {
-    padding: 45px;
+    padding: 40px;
     margin-right: 150px;
     border-radius: 463px;
     border: 15px solid #F00;
@@ -232,43 +232,43 @@ header {
     font-size: 20px;
 }
 
-.dollar-sit {
-    text-align: center;
-    margin-top: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
-    line-height: 0cap;
-}
+/* .dollar-sit {
+        text-align: center;
+        margin-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        line-height: 0cap;
+    }
 
-.dollar-sit-text h5 {
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-}
+    .dollar-sit-text h5 {
+        font-size: 24px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
 
-.dollar-sit-text h2 span {
-    color: #F00;
-    width: 1068px;
-}
+    .dollar-sit-text h2 span {
+        color: #F00;
+        width: 1068px;
+    }
 
-.dollar-sit-text h2 {
-    font-size: 72px;
-    font-weight: 900;
-    font-family: 'Inter', sans-serif;
-}
+    .dollar-sit-text h2 {
+        font-size: 72px;
+        font-weight: 900;
+        font-family: 'Inter', sans-serif;
+    }
 
-.dollar-sit-text p {
-    font-size: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    line-height: 32px;
+    .dollar-sit-text p {
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        line-height: 32px;
 
-}
+    } */
 
 .gift {
     line-height: 0%;
-    padding-top: 100px;
-    padding-left: 55px;
+    padding-top: 140px;
+    padding-left: 140px;
 }
 
 .gift h3 {
@@ -298,32 +298,32 @@ header {
 }
 
 .portfolio {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 140px;
+    padding-right: 140px;
     display: flex;
     gap: 24px;
-    width: 424px;
-    height: 450px;
-    align-content: space-between;
+    width: 350px;
+    height: 376px;
+    /* align-content: space-between; */
 }
 
 .portfolio-1 {
     padding-top: 24px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 140px;
+    padding-right: 140px;
     display: flex;
     gap: 24px;
-    width: 424px;
-    height: 450px;
-    align-content: space-between;
+    width: 350px;
+    height: 376px;
+    /* align-content: space-between; */
 }
 
 .newsletter {
     background: linear-gradient(180deg, rgba(238, 8, 8, 0.1) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
     border-radius: 16px;
-    margin-left: 50px;
-    margin-right: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
     margin-top: 100px;
     height: 616px;
 }
@@ -390,6 +390,7 @@ footer {
 .footer p {
     color: #FFF;
 }
+
 .footer-text p {
     font-size: 24px;
     font-family: 'Inter', sans-serif;
@@ -404,14 +405,31 @@ footer {
     line-height: 40px;
     line-height: .5;
 }
-.social-link{
-    text-align: center; 
+
+.contact-1 ul {
+    color: #FFF;
+    list-style: none;
+}
+
+.contact-1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.social-link {
+    text-align: center;
     /* margin-bottom: 247px; */
 }
-.social-link img{
+
+.social-link img {
     padding-right: 30px;
 }
-.finish{
+
+.finish {
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
